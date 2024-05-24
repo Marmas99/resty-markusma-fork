@@ -179,6 +179,10 @@ func (c *Client) SetHostURL(url string) *Client {
 	return c
 }
 
+func (c *Client) SetHttpClient(client *http.Client) {
+	c.httpClient = client
+}
+
 // SetBaseURL method is to set Base URL in the client instance. It will be used with request
 // raised from this client with relative URL
 //
