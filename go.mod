@@ -1,4 +1,4 @@
-module github.com/go-resty/resty/v2/markusma/fork
+module github.com/Marmas99/resty-markusma-fork 
 
 go 1.16
 
